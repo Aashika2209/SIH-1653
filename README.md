@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 07-03-2025
+## Register Number: 212224110001
+## Name: AASHIKA JAIN . G
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,97 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+The solution should automate and enhance this process by creating a simulated environment that mimics a real-world interview with the following key components:
 
+1.Question Relevance: Questions must be aligned with the expertise of the candidate.
+
+2.Response Evaluation: Responses should be evaluated for relevancy and quality.
+
+3.Scoring System: Both questions and responses should be assigned relevance scores, contributing to an overall score reflecting the candidate’s knowledge.
+
+4.Real-time Experience: Simulating a real-life interview experience with ice-breaker questions, followed by in-depth techno-managerial questions based on the candidate's role.
+
+5.Final Score: A quantifiable score to determine the candidate's suitability for the advertised post.
 
 ## Proposed Solution / Architecture Diagram
 
+![Colorful Pink Organizational Chart Graph](https://github.com/user-attachments/assets/77498b66-8811-4f08-a698-3d091262f37f)
+
+
 
 ## Use Cases
+Interview Preparation (For Interviewer):
 
+1: The interviewer selects the expertise level and role for the candidate.
+
+2: The system generates a dynamic question set tailored to the selected expertise and role.
+
+3: The interviewer can select predefined or custom questions based on the candidate’s expertise.
+
+Interview Process (For Candidate):
+
+1: The candidate logs into the system and enters the virtual interview room.
+
+2: The candidate responds to the questions posed by the interviewer via text, video, or audio.
+
+3: Real-time feedback is provided to the candidate based on their responses (e.g., hints, scoring).
+
+Scoring and Evaluation:
+
+1: The system evaluates responses using NLP models and assigns relevance scores.
+
+2: Both the interview questions and responses are assigned a relevancy score.
+
+3: The final score is calculated based on the relevancy of questions and responses.
+
+Admin Dashboard:
+
+1: Admin can monitor interviews and access the scoring and evaluation results.
+
+2: Admin can generate detailed reports of the interview outcomes for review.
 
 ## Technology Stack
+1)Frontend:
+Framework: React.js, Angular, or Vue.js for building dynamic user interfaces.
 
+UI Components: Material-UI, Bootstrap, or TailwindCSS for fast, responsive UI.
+
+Real-time Communication: WebRTC for video/audio integration.
+
+State Management: Redux (for React) or Vuex (for Vue.js).
+
+2)Backend:
+
+Web Framework: Node.js with Express.js or Python with Django/Flask.
+
+Database: PostgreSQL or MySQL for storing interview data, responses, and scoring.
+
+Authentication: JWT for secure login/authentication.
+
+Real-time Communication: Socket.io or Django Channels for handling real-time interactions between interviewer and candidate.
+
+3)AI/NLP:
+
+NLP Models: Hugging Face Transformers (BERT, GPT-3) for analyzing candidate responses and scoring based on relevancy.
+
+Libraries: spaCy or NLTK for text preprocessing.
+
+4)Deployment:
+
+Cloud Hosting: AWS, Google Cloud, or Azure for hosting the application.
+
+Containers: Docker for containerization, making the system portable and scalable.
+
+CI/CD: GitHub Actions or Jenkins for continuous integration and deployment.
 
 ## Dependencies
 
+1.Frontend: React.js or Vue.js, Material-UI or Tailwind CSS, WebRTC, Redux or Context API, and Socket.io for real-time communication.
+
+2.Backend: Node.js/Express.js or Python/Django, PostgreSQL or MySQL, JWT/OAuth for authentication, and Socket.io for real-time interactions.
+
+3.AI/NLP: Hugging Face Transformers (BERT, GPT), spaCy, or NLTK for analyzing responses.
+
+4.Deployment: AWS, Google Cloud, or Azure, Docker for containerization, and CI/CD tools like GitHub Actions.
+
+5.Testing: Jest, Mocha, PyTest for unit testing and Cypress/Selenium for end-to-end testing.
