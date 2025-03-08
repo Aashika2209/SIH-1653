@@ -44,15 +44,15 @@ Interview Process (For Candidate):
 
 2: The candidate responds to the questions posed by the interviewer via text, video, or audio.
 
-3: Real-time feedback is provided to the candidate based on their responses (e.g., hints, scoring).
+3: Real-time feedback is provided to the candidate based on their responses 
 
 Scoring and Evaluation:
 
-1: The system evaluates responses using NLP models and assigns relevance scores.
+1: The system evaluates responses using NLP models and assigns scores.
 
-2: Both the interview questions and responses are assigned a relevancy score.
+2: Both the interview questions and responses are assigned a relevent score.
 
-3: The final score is calculated based on the relevancy of questions and responses.
+3: The final score is calculated based on the  questions and responses.
 
 Admin Dashboard:
 
@@ -68,8 +68,6 @@ UI Components: Material-UI, Bootstrap, or TailwindCSS for fast, responsive UI.
 
 Real-time Communication: WebRTC for video/audio integration.
 
-State Management: Redux (for React) or Vuex (for Vue.js).
-
 2)Backend:
 
 Web Framework: Node.js with Express.js or Python with Django/Flask.
@@ -82,7 +80,7 @@ Real-time Communication: Socket.io or Django Channels for handling real-time int
 
 3)AI/NLP:
 
-NLP Models: Hugging Face Transformers (BERT, GPT-3) for analyzing candidate responses and scoring based on relevancy.
+NLP Models: Analyzing candidate responses and scoring based on relevancy.
 
 Libraries: spaCy or NLTK for text preprocessing.
 
