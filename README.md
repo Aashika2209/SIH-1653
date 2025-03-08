@@ -11,7 +11,7 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
-The solution should automate and enhance this process by creating a simulated environment that mimics a real-world interview with the following key components:
+The solution should automate and enhance this process by creating a real-world interview with the following key components:
 
 1.Question Relevance: Questions must be aligned with the expertise of the candidate.
 
