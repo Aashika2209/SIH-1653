@@ -30,35 +30,8 @@ The solution should automate and enhance this process by creating a real-world i
 
 
 ## Use Cases
-Interview Preparation (For Interviewer):
 
-1: The interviewer selects the expertise level and role for the candidate.
-
-2: The system generates a dynamic question set tailored to the selected expertise and role.
-
-3: The interviewer can select predefined or custom questions based on the candidate’s expertise.
-
-Interview Process (For Candidate):
-
-1: The candidate logs into the system and enters the virtual interview room.
-
-2: The candidate responds to the questions posed by the interviewer via text, video, or audio.
-
-3: Real-time feedback is provided to the candidate based on their responses 
-
-Scoring and Evaluation:
-
-1: The system evaluates responses using NLP models and assigns scores.
-
-2: Both the interview questions and responses are assigned a relevent score.
-
-3: The final score is calculated based on the  questions and responses.
-
-Admin Dashboard:
-
-1: Admin can monitor interviews and access the scoring and evaluation results.
-
-2: Admin can generate detailed reports of the interview outcomes for review.
+![Uploading 1.png…]()
 
 ## Technology Stack
 1)Frontend:
