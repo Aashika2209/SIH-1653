@@ -27,11 +27,9 @@ The solution should automate and enhance this process by creating a real-world i
 
 ![Colorful Pink Organizational Chart Graph](https://github.com/user-attachments/assets/77498b66-8811-4f08-a698-3d091262f37f)
 
-
-
 ## Use Cases
 
-![Uploading 1.png…]()
+![1](https://github.com/user-attachments/assets/8d44b3b8-5296-443e-80af-cc54908ca1db)
 
 ## Technology Stack
 1)Frontend:
